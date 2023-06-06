@@ -1,0 +1,59 @@
+body{
+    font-size: 18px;
+    background-image: url("6038957-power-work-physics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+p{
+    font-size: 20px;
+}
+#b1, #b2, #b3, #b4{
+    width: 240px;
+    height: 35px;
+    background-color: rgb(38, 36, 36);
+    color: #faf7f7;
+    font-size: 16px;
+    
+    
+}
+#b1:hover, #b2:hover, #b3:hover, #b4:hover {
+    transform: scale(1.2);
+}
+
+.head{
+    width: 520px;
+    height: 670px;
+    background-color: rgb(131, 130, 127);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#no1,#no2{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(61, 59, 50);
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+#b5{
+    width: 200px;
+    font-weight: bold;
+    font-style: italic;
+    height: 40px;
+    font-size: 26px;
+    border-radius: 20px;
+    background-color: rgb(200, 198, 193);
+}

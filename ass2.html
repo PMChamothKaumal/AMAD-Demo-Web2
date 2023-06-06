@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+
+    <link rel="stylesheet" href="ass2.css">
+</head>
+<body>
+    
+    <div class="head">
+        <br>
+        <h1>Simple calculator.</h1>
+        <label>First number,</label><br>
+        <input type="number" placeholder="Enter your first no. " id="no1">
+        <br><br>
+        <label>Second number, </label><br>
+        <input type="number" placeholder="Enter your second no. " id="no2">
+        <p>Please choose the Arithmatic operation below,</p>
+
+        <div>
+            <button id="b1" onclick="add()">Addition +</button>
+            <br><br>
+            <button id="b2" onclick="sub()">Substraction -</button>
+            <br><br>
+            <button id="b3" onclick="mul()">Multiplication *</button>
+            <br><br>
+            <button id="b4" onclick="div()">Division /</button>
+        </div>
+
+        <div>
+            <h3>Your Answer is: </h3>
+            <button id="b5">Answer</button>
+        </div>
+
+    </div>
+
+    <script src="ass2.js"></script>
+</body>
+</html>
