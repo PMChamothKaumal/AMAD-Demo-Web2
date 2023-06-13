@@ -32,3 +32,6 @@ function div(){
     document.getElementById("b5").innerHTML = Answer;
 
 }
+
+var age=30;
+var ages =67;
